@@ -1,0 +1,35 @@
+/* Thanh % */
+.progress {
+    display: block;
+    position: relative;
+    height: 10px;
+    width: 300px;
+    background-color: white;
+    border-radius: 0.25em;
+    overflow: hidden;
+    color:#0056b3;
+}
+
+.progress:not(:last-child) {
+    margin-bottom: 2px;
+}
+
+.progress-bar {
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+
+/* background color class */
+.bg-info {
+    background-color: #B15B75; /* Màu hồng B15B75 */
+}
+.bg-danger {
+    background-color: #B15B75; /* Màu hồng B15B75 */
+}
+.bg-success {
+    background-color: #B15B75; /* Màu hồng B15B75 */
+}
+.bg-warning {
+    background-color: #B15B75; /* Màu hồng B15B75 */
+}
